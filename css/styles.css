@@ -131,7 +131,7 @@ body {
   border-radius: 2px;
   position: absolute;
   left: 0;
-  top: 48px;
+  top: 47px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -332,7 +332,7 @@ body {
   align-items: center;
   justify-content: center;
   color: rgba(175, 177, 184, 1);
-  transition: color var(--transition);
+  transition: color var(--transition), border-color var(--transition);
 }
 
 .customers-svg {
@@ -404,7 +404,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 100;
-  transition: opasity var(--transition), visibility var(--transition);
+  transition: opacity var(--transition), visibility var(--transition);
 }
 .backdrop.is-hidden {
   visibility: hidden;
@@ -460,7 +460,7 @@ body {
 }
 .button {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   background-color: #f4f4fd;
   color: var(--header-link-color);
   cursor: pointer;
